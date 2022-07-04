@@ -1,0 +1,22 @@
+{
+    "name": "amaranth/geektube",
+    "description": "youtube replication",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\Model\\Entity\\": "auto/Model/Entity",
+            "App\\Model\\Manager\\": "auto/Model/Manager",
+            "App\\Controller\\": "auto/Controller"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amaranth01",
+            "email": "vanessa.nectoux@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
